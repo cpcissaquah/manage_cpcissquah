@@ -12,7 +12,7 @@
         region: sfo2 # slug of the region you would like your server to be created in.   https://www.digitalocean.com/docs/platform/availability-matrix/
         image: wordpress-18-04 # slug of the image you would like the droplet created with.
         wait: yes
-        name: "new-cpcissaquah" # name of the droplet
+        name: "test-website" # name of the droplet
         size_id: s-1vcpu-2gb   # See https://slugs.do-api.dev/ for options
         state: present
         #ssh_keys: [ '0123456789' ] # <----- put your numeric SSH key in here
